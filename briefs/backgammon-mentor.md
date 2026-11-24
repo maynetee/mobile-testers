@@ -20,7 +20,9 @@ Read AGENT_BRIEF.md first: its tools, rules and final report all apply, with the
   Mentor's card sits on the middle of the board and stays there; positions 2 and 3 of the first series
   have no back arrow; the streak flame stays at 0 until a finished game or a series of 5; no summary
   screen after the first series of 3; the board points are narrower than 44 pt / 48 dp on purpose;
-  the sheet grabber is the system one.
+  the sheet grabber is the system one; text lines are balanced (a paragraph may wrap before the right
+  edge, and its last two words stay together); the English is American (US flag, US spelling) whatever
+  the phone's English region.
 - On an iPad, if a tap seems to do nothing, check your coordinates against the screenshot scale before
   reporting it: a tool mismatch is not an app bug.
 - Never buy anything, never start a real payment or subscription. Look at a Premium screen if you
