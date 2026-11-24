@@ -1,13 +1,14 @@
-# Brief: Backgammon Mentor (backgammon training app, French only)
+# Brief: Backgammon Mentor (backgammon training app, French and English)
 
 Read AGENT_BRIEF.md first: its tools, rules and final report all apply, with the changes below.
 
 ## About the app
-- The app is in **French only**, whatever the phone's language. Never report a missing translation,
-  French text, or right-to-left not applied. Do report French text that is cut, overlaps, or
-  does not fit the screen at this device's text size.
-- Two pillars on the home screen: **Jouer** (a game against the computer opponent "Mentor") and
-  **Entraînement** (series of positions: you play your move, you get a verdict with an explanation).
+- The app follows the phone's language: **French** on a French phone, **English** on every other
+  language. Never report a missing translation into another language, or right-to-left not applied.
+  Do report: text left in the wrong language (French on an English phone or the reverse), text that
+  is cut, overlaps, or does not fit the screen at this device's text size.
+- Two pillars on the home screen: **Jouer** / Play (a game against the computer opponent "Mentor") and
+  **Entraînement** / Training (series of positions: you play your move, you get a verdict with an explanation).
   Games are analysed move by move afterwards (**Revue**). There is also **En ligne** (online play).
 - Words: *dame* = checker, *videau* = doubling cube, *Doubler* / *Prendre* / *Passer* = double / take /
   pass, *partie* = game, *coup* = move.
