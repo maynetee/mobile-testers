@@ -53,7 +53,7 @@ claude -p "Read $BRIEF and personas.json, then do the mission until the final re
   > results/agent-output.json 2> results/agent-errors.txt
 CODE=$?
 # Full agent transcript (messages, tool calls, thinking), encrypted with the rest of results/
-for f in "$HOME"/.claude/projects/*/*.jsonl; do [ -f "$f" ] && cp "$f" "results/$PERSONA/transcript-$(basename "$f")"; done
+mkdir -p "results/$PERSONA"; for f in "$HOME"/.claude/projects/*/*.jsonl; do [ -f "$f" ] && cp "$f" "results/$PERSONA/transcript-$(basename "$f")"; done
 python3 scripts/agent_status.py results/agent-output.json results/agent-errors.txt "$PERSONA" || true
 if [ -n "$REC" ]; then
   touch /tmp/stop-rec; adb shell pkill -INT screenrecord; sleep 4; kill "$REC" 2>/dev/null
