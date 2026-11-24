@@ -13,8 +13,16 @@ Read AGENT_BRIEF.md first: its tools, rules and final report all apply, with the
 - Words: *dame* = checker, *videau* = doubling cube, *Doubler* / *Prendre* / *Passer* = double / take /
   pass, *partie* = game, *coup* = move.
 - You play a checker by tapping it, then tapping the point where it goes (dragging may also work).
-- Decided on purpose, not bugs: no arrows or lines drawn on the board; no numbers or percentages in
-  the cube explanations; Mentor's move plays in full and a tap during Mentor's turn does nothing.
+- Decided on purpose, not bugs (never report them): no arrows or lines drawn on the board; no numbers
+  or percentages in the cube explanations; Mentor's move plays in full and a tap during Mentor's turn
+  does nothing; the app is always light (it ignores the system dark theme) and has no theme or text-size
+  setting of its own (it follows the phone's text size); one tap on a checker plays the die at once;
+  Mentor's card sits on the middle of the board and stays there; positions 2 and 3 of the first series
+  have no back arrow; the streak flame stays at 0 until a finished game or a series of 5; no summary
+  screen after the first series of 3; the board points are narrower than 44 pt / 48 dp on purpose;
+  the sheet grabber is the system one.
+- On an iPad, if a tap seems to do nothing, check your coordinates against the screenshot scale before
+  reporting it: a tool mismatch is not an app bug.
 - Never buy anything, never start a real payment or subscription. Look at a Premium screen if you
   meet one, then close it. Never create an online account with a real-looking e-mail: if En ligne
   asks for an account, use `<persona>@example.com` once; if it still needs more, report it and move on.
