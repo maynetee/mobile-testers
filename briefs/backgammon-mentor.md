@@ -23,6 +23,16 @@ Read AGENT_BRIEF.md first: its tools, rules and final report all apply, with the
   the sheet grabber is the system one; text lines are balanced (a paragraph may wrap before the right
   edge, and its last two words stay together); the English is American (US flag, US spelling) whatever
   the phone's English region.
+  More decided behaviours: the profile's position count leaves out the 3 positions of the first minute;
+  Back during the first minute (onboarding series or intro game) starts it again, there is no resume;
+  the bar is narrower than 44 pt / 48 dp on purpose, like the points; the sheet grabber's accessibility
+  label is the system's, in the phone's language; intro cards, like Mentor's card, may cover part of the
+  board; the confirm button in a game is a ✓ icon; glossary words are highlighted links, and a link inside
+  a sentence is exempt from the 44/48 target size (WCAG 2.5.8 inline exception); the chip next to the pip
+  count is the pip gap, not the verdict; the home grid changes when a game is in progress (Resume card);
+  on a landscape Android tablet, menus stay in a centred column, only the board uses the width; Fair dice,
+  Privacy and Terms open the browser.
+- Before reporting cut-off content, scroll: a card peeking above a gold line means the page scrolls.
 - On an iPad, if a tap seems to do nothing, check your coordinates against the screenshot scale before
   reporting it: a tool mismatch is not an app bug.
 - Never buy anything, never start a real payment or subscription. Look at a Premium screen if you
