@@ -35,6 +35,14 @@ Read AGENT_BRIEF.md first: its tools, rules and final report all apply, with the
   shows the best move, unlabelled (the words stay about your move).
   When a game bar row is too narrow, the player's name gives way first, then the turn word; pips, gap
   and clock always stay.
+  Also decided: on an iPad too (portrait and landscape), menus stay in a centred reading column of about
+  430 pt, only the board uses the width; the intro game ends with a large "You won!" over the board, on
+  purpose; in the first minute a position's circle turns green once it is done, whatever the verdict
+  (the verdict word and glyph carry the grade); text grows with the phone's text size up to a cap (body
+  ×1.6, titles ×1.4, buttons ×1.3); when you cannot move, only "Pass my turn" shows; the contact address
+  may break after a dot of the domain; a missed position's circle carries a ↶ glyph and reopens the
+  position; the dimmed area behind a sheet closes it; Android's own full-screen notice may appear once,
+  in the phone's language: it is not the app.
 - Before reporting cut-off content, scroll: a card peeking above a gold line means the page scrolls.
 - On an iPad, if a tap seems to do nothing, check your coordinates against the screenshot scale before
   reporting it: a tool mismatch is not an app bug.
