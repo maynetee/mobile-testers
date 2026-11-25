@@ -33,6 +33,8 @@ Read AGENT_BRIEF.md first: its tools, rules and final report all apply, with the
   on a landscape Android tablet, menus stay in a centred column, only the board uses the width; Fair dice,
   Privacy and Terms open the browser; after a wrong answer in Training the board turns night blue and
   shows the best move, unlabelled (the words stay about your move).
+  When a game bar row is too narrow, the player's name gives way first, then the turn word; pips, gap
+  and clock always stay.
 - Before reporting cut-off content, scroll: a card peeking above a gold line means the page scrolls.
 - On an iPad, if a tap seems to do nothing, check your coordinates against the screenshot scale before
   reporting it: a tool mismatch is not an app bug.
